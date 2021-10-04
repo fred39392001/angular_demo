@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Title Test';
+  imgUrl = '/assets/images/logo.png';
+  title = 'ABow 的追劇生活';
   url = 'https://www.google.com.tw/';
 }

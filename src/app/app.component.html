@@ -25,10 +25,10 @@
       <div class="title-wrapper">
         <div class="container">
 
-          <img src="/assets/images/logo.png" class="pull-left logo" alt="ABow 的追劇生活">
+          <img [title]="title" [src]="imgUrl" [attr.data-title]="title" class="pull-left logo" alt="ABow 的追劇生活">
 
           <div class="pull-left">
-            <h1><a href="{{ url }}">{{ title }}</a></h1>
+            <h1><a [href]="url">{{ title }}</a></h1>
             <h3>記載著 ABow 追劇的點點滴滴</h3>
           </div>
 
